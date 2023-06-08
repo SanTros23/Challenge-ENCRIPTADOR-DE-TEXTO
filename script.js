@@ -1,10 +1,10 @@
-
 /* La letra "a" es convertida para "ai"
 La letra "e" es convertida para "enter"
 La letra "i" es convertida para "imes"
 La letra "o" es convertida para "ober"
 La letra "u" es convertida para "ufat" */
 
+//prueba de cambio
    
 const  textArea = document.querySelector(".text-area"); // aquí estamos llamando el campo de entrada de datos (text-area) desde JavaScript.
 const mensaje = document.querySelector(".mensaje");
