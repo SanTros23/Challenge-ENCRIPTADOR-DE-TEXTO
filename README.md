@@ -1,7 +1,7 @@
 # Challenge-ENCRIPTADOR-DE-TEXTO
 Primer Challenge del Curso ALURA
 
-Challenge-Oracle-ONE-Encriptador
+Challenge-ENCRIPTADOR-DE-TEXTO
 Encriptador de texto con JavaScript, HTML y CSS
 Fue desarrollado con base en los aprendizajes obtenidos en el curso "Primeros pasos de programación" del programa ONE-ORACLE ejecutado por Alura Latam.
 
