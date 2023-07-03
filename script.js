@@ -21,7 +21,7 @@ function encriptar(stringEncriptado){
     let matrizCodigo = [["e","enter"], ["i","imes"], ["a","ai"], ["o","ober"], ["u","ufat"]];
     stringEncriptado = stringEncriptado.toLowerCase();
 
-    // Esta funcion veirica que el usuario escirba sin acentos.
+    // Esta funcion veririca que el usuario escirba sin acentos.
     if (acentos.test(stringEncriptado)) {
         alert("El texto contiene letras con tilde, lo debe corregir para poder continuar.");
         stringEncriptado = "ERROR" 

@@ -3,8 +3,16 @@
     font-family: 'Montserrat';
     font-weight: 400px;
     font-size: 32px;
-    line-height: 130%;
+    line-height: 100%;
     
+}
+
+body{
+    display: inline-block;
+}
+
+header{
+    display: flex;
 }
 
 .logo{
@@ -16,7 +24,7 @@
 
 main{
     display: inline-flex;
-    margin-bottom: 55%;
+    margin-bottom: -30%;
     margin-left: 10%;
     width: 80%;
     height: 50%;
@@ -27,7 +35,7 @@ main{
     border:none;
     color: #0A3871;
     text-transform: lowercase;
-    padding: 5%;
+    padding: 2%;
 }
 
 ::placeholder{
@@ -45,9 +53,10 @@ main{
   border: none;
   border-radius: 20px;
   color:#0A3871;
-  padding: 2.5%;
+  padding: 1.0%;
   margin-left: 50px;
-  position:fixed;
+  position:absolute;
+  height: 380px;
 }
 
 .mensaje:focus{
@@ -56,7 +65,7 @@ main{
 
 .botones{
     display: flex;
-    margin-top: 18px;
+    margin-top: 10px;
 }
 
 .btn-desencriptar{
@@ -90,11 +99,40 @@ main{
     height: 67px;
     width: 270px;
     margin-left: 120px;
-    margin-top: 400px;
+    margin-top: 320px;
     position: absolute;
 }
-.informacion{
+/* //Letrero solo letras minusculas y sin acentos */
+.informacion{ 
     color:black;
     font-size: 20px;
     margin-left: 30px;
+}
+
+.footer{
+  display: flex;
+  width: 190%;
+  height: 0%;  
+  padding: 57px 50px;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.logo_linkedin {
+    width: 45px;
+    height: 45px;
+}
+
+.logo_github {
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    
+}
+
+.copyright{
+    text-align: start;
+    color: black;
+    font-size: 15px;
+    margin: 30px;
 }
